@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Feed</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="header-title">Lolo v4</h1>
+    </div>
+
+    <div id="filter">
+        <label for="category">Filter by Category:</label>
+        <select id="category" onchange="filterByCategory(this.value)">
+            <option value="">All</option>
+            <option value="Technology">Technology</option>
+            <option value="Science">Science</option>
+            <option value="Health">Health</option>
+        </select>
+    </div>
+
+    <div id="feed"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
