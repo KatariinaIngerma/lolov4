@@ -28,7 +28,7 @@ async function fetchData() {
             author.textContent = item.author;
 
             if (author.textContent !== "") {
-                authorImage.src = './assets/icons8-male-user-16.png'; // Assuming the image is located at './assets/icons8-male-user-16.png'
+                authorImage.src = './assets/icons8-male-user-16.png'; 
                 authorImage.alt = 'Author Image';
 
                 authorDiv.classList.add('author-info');
